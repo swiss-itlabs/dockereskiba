@@ -1,0 +1,22 @@
+# ======================== Elasticsearch Configuration =========================
+#
+# Please consult the documentation for further information on configuration options:
+# https://www.elastic.co/guide/en/elasticsearch/reference/index.html
+#
+# ---------------------------------- Cluster -----------------------------------
+#
+cluster.name: eskiba
+#
+# ---------------------------------- Network -----------------------------------
+#
+network.host: 0.0.0.0
+#
+# --------------------------------- Discovery ----------------------------------
+#
+discovery.type: single-node
+#
+# --------------------------------- Security -----------------------------------
+#
+xpack.security.enabled: true
+xpack.security.authc.api_key.enabled: true
+#
